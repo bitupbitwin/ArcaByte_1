@@ -11,15 +11,15 @@
 
 | 位置 | 工具 | 模型 | 计费方式 |
 |---|---|---|---|
-| 左上 | **Claude Code** | Claude Opus 4.8 | Claude Pro / Max 会员额度 |
+| 左上 | **Claude Code** | Claude Opus 4.8 | Claude Pro / Max 会员额度 **或** Anthropic API Key |
 | 右上 | **Grok CLI** | Grok 3 Mini | SuperGrok 订阅 **或** xAI API Key |
-| 左下 | **Gemini CLI** | Gemini Advanced | Google One AI Premium 会员 |
-| 右下 | **Codex CLI** | GPT-5.5 medium | ChatGPT Plus 会员 |
+| 左下 | **Gemini CLI** | Gemini Advanced | Google One AI Premium 会员 **或** Gemini API Key |
+| 右下 | **Codex CLI** | GPT-5.5 medium | ChatGPT Plus 会员 **或** OpenAI API Key |
 
 **关键结论：**
 
-- **Claude、Gemini、ChatGPT（Codex）三家都能直接用各自的会员额度，无需额外充值 API。**
-- **Grok 支持两种方式：开通 SuperGrok 订阅可直接使用；也可以单独购买 xAI API Key。**
+- **四款 CLI 全部同时支持订阅/会员额度和 API Key 两种方式，可按需选择。**
+- 有订阅的直接用会员额度，无订阅或需要更大用量的可单独购买对应 API Key。
 
 **基于这套配置的快速推荐：**
 
@@ -45,17 +45,17 @@
 ### Claude Code（Anthropic）
 - **形态**：纯终端 Agent
 - **特点**：命令行编程 Agent，另有 VS Code / JetBrains 插件和桌面 App
-- **计费**：Claude Pro / Max 会员额度直接可用，无需单独购买 API
+- **计费**：Claude Pro / Max 会员额度直接可用；也支持单独购买 Anthropic API Key
 
 ### Gemini CLI（Google）
 - **形态**：开源终端 Agent（Apache 2.0）
 - **特点**：有免费额度，VS Code 配套插件，支持 MCP
-- **计费**：Google One AI Premium 会员直接可用
+- **计费**：Google One AI Premium 会员直接可用；也支持单独购买 Gemini API Key
 
 ### Codex（OpenAI）
 - **形态**：CLI + 插件 + 桌面 App + 云端，全形态
 - **特点**：Codex CLI（终端）、Codex IDE 插件（VS Code/Cursor 等）、Codex 桌面 App、Codex Web（云端）；内核已由 Node 重写为 Rust
-- **计费**：ChatGPT Plus 会员直接可用
+- **计费**：ChatGPT Plus 会员直接可用；也支持单独购买 OpenAI API Key
 
 ### Grok Build（xAI）
 - **形态**：官方终端 Agent
@@ -148,13 +148,13 @@
 
 ## 五、会员可用性速查
 
-| 工具 | 是否可用现有订阅 | 说明 |
-|---|---|---|
-| Claude Code | ✅ | Claude Pro / Max 会员直接可用 |
-| Gemini CLI | ✅ | Google One AI Premium 会员直接可用 |
-| Codex CLI | ✅ | ChatGPT Plus 会员直接可用 |
-| Grok Build | ✅ / 可选 | SuperGrok 订阅可用；或单独购买 xAI API Key |
-| 其他国内工具 | 各有不同 | 以各官网最新计费说明为准 |
+| 工具 | 订阅/会员 | API Key | 说明 |
+|---|---|---|---|
+| Claude Code | ✅ Claude Pro / Max | ✅ Anthropic API Key | 两种方式均可，按需选择 |
+| Gemini CLI | ✅ Google One AI Premium | ✅ Gemini API Key | 两种方式均可，按需选择 |
+| Codex CLI | ✅ ChatGPT Plus | ✅ OpenAI API Key | 两种方式均可，按需选择 |
+| Grok Build | ✅ SuperGrok | ✅ xAI API Key | 两种方式均可，按需选择 |
+| 其他国内工具 | 各有不同 | 各有不同 | 以各官网最新计费说明为准 |
 
 ---
 

@@ -14,28 +14,27 @@
 【四大 CLI 同屏跑，这是我的配置】
 
 🟦 左上：Claude Code × Claude Opus 4.8
-→ 用 Claude Pro / Max 会员额度，开箱即用
+→ Claude Pro / Max 会员 或 Anthropic API Key，二选一
 
 🟧 右上：Grok CLI × Grok 3 Mini
-→ 开通 SuperGrok 订阅即可用；或者单独充 xAI API Key 也行
+→ SuperGrok 订阅 或 xAI API Key，二选一
 
 🟩 左下：Gemini CLI × Gemini Advanced
-→ Google One AI Premium 会员，直接驱动
+→ Google One AI Premium 会员 或 Gemini API Key，二选一
 
 🟥 右下：Codex CLI × GPT-5.5 medium
-→ ChatGPT Plus 会员，直接驱动
+→ ChatGPT Plus 会员 或 OpenAI API Key，二选一
 
 · · ·
 
 【最关键的结论，一条就够】
 
-✅ Claude、Gemini、ChatGPT（Codex）—— 会员直接用，不用额外充 API
+✅ 四款 CLI 全部同时支持：订阅/会员 和 API Key 两种接入方式
 
-✅ Grok —— SuperGrok 订阅可以直接用；没有订阅的话充 xAI API Key 也可以
+有哪个会员，就直接用哪个会员跑；
+没有订阅、或者想要更大用量，买对应的 API Key 接上就行。
 
-也就是说：你现在手上有哪个会员，就能免费多一套命令行编程神器。
-
-会员钱已经花了，不用就是白费。
+两条路都通，不存在只能选一种的情况。
 
 · · ·
 
@@ -108,11 +107,17 @@ Windows：irm https://x.ai/cli/install.ps1 | iex
 
 国内网络不想折腾：CodeBuddy（微信登录最省事）
 
-已有会员，最大化利用：
-Claude Pro → Claude Code
-Google One → Gemini CLI
+已有会员，直接接上对应 CLI：
+Claude Pro / Max → Claude Code
+Google One AI Premium → Gemini CLI
 ChatGPT Plus → Codex CLI
 SuperGrok → Grok Build
+
+没有订阅也没关系，买 API Key 同样能跑：
+Anthropic API Key → Claude Code
+Gemini API Key → Gemini CLI
+OpenAI API Key → Codex CLI
+xAI API Key → Grok Build
 
 · · ·
 
